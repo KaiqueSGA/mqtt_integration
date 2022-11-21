@@ -1,38 +1,177 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border:none;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+height:2.2em;
+width:10em;
+margin-right: 1.3em;
+border-radius: 0.3em;
+background-color: rgb(28, 51, 90);
+color:white;
+border:  rgb(28, 51, 90);
+}  /* Green */ 
+
+
+.container {
+display: flex;
+justify-content: center;
+background-color: gray;
+align-items: center;
+height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.box{
+border-radius: 5px;
+display:flex;
+flex-direction: column;
+background-color:white;
+width:880.5px;
+height:360px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.close {
+margin-top: 0.4em;
+width:40px;
+height:17px;
+color:white;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.cabecalho{
+display:flex;
+justify-content: space-between;
+background-color:rgb(28, 51, 90) ;
+height: 2.1em;
+border-top-left-radius: 3.1px;
+border-top-right-radius: 3.1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+margin-top: 0.3em;
+margin-left: 0.5em;
+align-items: center;
+color:white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 14px;
+}
+
+.fieldOfSelection{
+display:flex;
+flex-direction: column;
+}
+
+
+.label_dev{
+height: 1em;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 14px;
+width:18em;
+margin-left: 1.3em;
+margin-top: 0.4em;
+margin-bottom: 0.7em;
+display:flex;
+justify-content: left;
+}
+
+
+.drop{
+width: 1.2em;
+height: 1.45em;
+}
+
+
+.title_label{
+margin-left: 0.3em;
+}
+
+
+.input{
+display:flex;
+height: 7em;
+} 
+
+.buttons{
+display:flex;
+padding-right: 1em;
+}
+
+.buttons button{
+width:3em;
+background-color:white;
+}
+
+button:hover{
+background-color: rgb(18, 102, 170);
+transition: 0.9s;
+color: white;
+cursor: pointer;
+}
+
+.blankSpace{
+border: 1px solid #e5e6e7;
+border-radius: 3px;
+height: 6em;
+margin-left:1.3em;
+width:52em;
+}
+
+.refresh img{
+width:17px;
+height:17px;
+}
+
+.refresh button{
+padding-right: 0.2em;
+border:none;
+}
+
+.listButton img {
+width:22px;
+height:22px;
+}
+
+
+.listButton{
+border-left: 1px solid #e5e6e7;
+padding-left: 0.7em;
+padding-right: 1.5em;
+}
+
+
+.secondInput{
+display:flex;
+flex-direction: column;
+height:8em
+}
+
+.inputCmd{
+width: 62.2em;
+height:2em;
+border:1px solid #e5e6e7;
+margin-left: 1.7em;
+}
+
+.rodape{
+background-color:rgba(28, 51, 90, 0.4);
+height: 2.7em;
+display: flex;
+justify-content: right;
+margin-top: 1.3em;
+align-items: center;
+}
+
+
+.devices{
+width: 62.2em;
+height:7em;
+border:1px solid #e5e6e7;
+margin-left: 1.6em;
 }
